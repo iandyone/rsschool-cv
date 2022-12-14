@@ -16,7 +16,7 @@
     background-color: white;
 }
 .header__image {
-    flex: 0 0 40%;
+    flex: 0 0 35%;
 }
 .header__image > img {
     height: 100%;
@@ -52,7 +52,7 @@
     line-height: calc(12 / 10 * 100%);
 }
 .cv__content {
-    flex: 0 0 60%;
+    flex: 0 0 65%;
 }
 
 /* ========== MAIN ========== */
@@ -66,10 +66,10 @@
     padding: 50px 30px;
 }
 .content__acticle:nth-child(1) {
-    flex: 0 0 40%;
+    flex: 0 0 35%;
 }
 .content__acticle:nth-child(2) {
-    flex: 0 0 60%;
+    flex: 0 0 65%;
 }
 .content__acticle > *:not(:last-child) {
     margin-bottom: 50px;
@@ -92,6 +92,7 @@
 }
 .skills__progress {
     height: 10px;
+    max-width: 130px;
     border: 1px solid var(--yellow);
 }
 .skills__progress::-webkit-progress-value {
@@ -134,6 +135,7 @@
 }
 .languages__progress {
     height: 10px;
+    max-width: 130px;
     border: 1px solid var(--yellow);
 }
 .languages__progress::-webkit-progress-value {
@@ -142,7 +144,6 @@
 .languages__progress::-webkit-progress-bar {
     background: var(--bg2);
 }
-
 
 /* --- EDUCATION --- */
 
@@ -185,7 +186,6 @@
     max-width: 100px;
 }
 
-
 /* --- PROJECTS --- */
 
 .projects__list {
@@ -196,6 +196,7 @@
 .project {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     row-gap:5px;
 }
 .project__title {
@@ -217,6 +218,13 @@
     transition: all .23s ease;
 }
 
+/* --- CODE --- */
+
+.code__example {
+    padding: 20px;
+    border: 1px solid white;
+    line-height: 1;
+}
 
 /* ========== FOOTER ========== */
 
