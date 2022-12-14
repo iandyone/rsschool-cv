@@ -20,9 +20,9 @@ ul li {
 
 html,
 body {
-    height: 100%;
+    min-height: 100%;
     font-family: Cabin;
-    font-weight: 700;
+    font-weight: 500;
     background-color: #1e1e1e;
     color: white;
 }
@@ -34,7 +34,7 @@ a {
 }
 
 [data-title] {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 21px;
     position: relative;
@@ -49,7 +49,7 @@ a {
     bottom: -12px;
     left: 0px;
     transform: translate(0, -50%);
-    width: 17px;
+    width: 30px;
     height: 2px;
     background-color: var(--yellow);
 }
@@ -133,7 +133,7 @@ a {
 }
 
 .content__acticle > *:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .content__acticle:nth-child(2) {
     background-color: var(--bg1);
@@ -225,7 +225,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 25px;
+    row-gap: 20px;
 }
 .education__item {
     display: flex;
@@ -234,13 +234,15 @@ a {
     flex: 1 1 70%;
     display: flex;
     flex-direction: column;
-    row-gap: 7px;
+    row-gap: 5px;
 }
 .education__institution {
     font-size: 18px;    
     text-transform: capitalize;
+    font-weight: 700;
 }
 .education__text {
+    font-weight: 400;
 }
 .education__text span {
     font-style: italic;
@@ -261,11 +263,43 @@ a {
 
 
 
-
-
-
 .projects {
 }
+.projects__title {
+}
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.projects__project {
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+}
+.project__title {
+    font-size: 18px;    
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.project__text {
+}
+.project__text span {
+    font-style: italic;
+    color: var(--gray);
+}
+.project__link {
+    transition: all .2s ease;
+}
+.project__link:hover {
+    cursor: pointer;
+    color: var(--yellow);
+    text-decoration: underline;
+    transition: all .23s ease;
+}
+
 .code {
 }
 
