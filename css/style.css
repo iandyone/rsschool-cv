@@ -38,7 +38,7 @@ a {
     line-height: 21px;
     position: relative;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 [data-title]::before {
@@ -150,7 +150,7 @@ a {
     
 }
 .skills__progress {
-    height: .6em;
+    height: 10px;
     border: 1px solid var(--yellow);
 }
 .skills__progress::-webkit-progress-value {
@@ -158,7 +158,7 @@ a {
 }
 .skills__progress::-webkit-progress-bar {
     background: var(--bg2);
-  }
+}
 
 
 
@@ -181,6 +181,31 @@ a {
     text-decoration: underline;
     transition: all .3s ease;
 }
+
+.languages {
+}
+
+.languages__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.languages__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.languages__progress {
+    height: 10px;
+    border: 1px solid var(--yellow);
+}
+.languages__progress::-webkit-progress-value {
+    background: var(--yellow);
+}
+.languages__progress::-webkit-progress-bar {
+    background: var(--bg2);
+}
+
 
 
 
