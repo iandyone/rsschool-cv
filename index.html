@@ -179,7 +179,7 @@
                                     <rect width="1000" height="710" fill="white"/>
                                     </clipPath>
                                     </defs>
-                                    </svg>  
+                                    </svg>
                             </div>
                         </li>
                         <li class="education__item">
@@ -277,11 +277,11 @@
                         <code>
                             <span data-keyword>function</span> <span data-fname>getFilteredNoteList</span>(tags, noteList) {<br>
                                 &nbsp;&nbsp;&nbsp; <span data-keyword>const</span> list = (tags.<span data-name>length</span>) ?<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; noteList.<span data-fname="">filter</span>(note => note.<span data-name>noteText</span>.<span data-fname="">split</span>(/<span data-fname>[\s,\n,\t,]</span>+/)<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span data-fname>some</span>(word => tags.<span data-fname>includes</span>(word))) <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; noteList.<span data-fname="">filter</span>(note =&gt; note.<span data-name>noteText</span>.<span data-fname="">split</span>(/<span data-fname>[\s,\n,\t,]</span>+/)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span data-fname>some</span>(word =&gt; tags.<span data-fname>includes</span>(word))) <br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; noteList; <br><br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; <span data-keyword>return</span> list.<span data-fname>sort</span>((a, b) => b.<span data-name>id</span> - a.<span data-name>id</span>);<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp; <span data-keyword>return</span> list.<span data-fname>sort</span>((a, b) =&gt; b.<span data-name>id</span> - a.<span data-name>id</span>);<br>
                             }
                         </code>
                     </div>
